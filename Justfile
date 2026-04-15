@@ -11,4 +11,4 @@ install: (jekyll "bundle install")
 build: (jekyll "jekyll build")
 
 serve:
-    podman run --rm --volume="$PWD:/srv/jekyll:Z" --publish [::1]:4000:4000 -it {{image}} jekyll serve
+    podman run --rm --volume="$PWD:/srv/jekyll:Z" --publish [::1]:4000:4000 --publish [::1]:35729:35729 -it {{image}} jekyll serve --livereload

@@ -1,0 +1,17 @@
+{% if site.post_search %}
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: [{% for post in site.posts %}{"title":{{ post.title | strip_html | escape | default: post.excerpt | strip_html | escape | jsonify }},"category":{{ post.tags | join: ', ' | jsonify }},"url":{{ site.baseurl | append: post.url | escape | jsonify }},"date":{{ post.date | date: "%B %e, %Y" | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+    });
+  </script>
+</div>
+{% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title: "My unfortunate journey"
 date:   2026-04-15 04:27:33 -0500
 categories: jekyll update
 ---

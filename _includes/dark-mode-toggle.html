@@ -1,0 +1,49 @@
+<button class="dark-mode-btn" id="dark-mode-toggle" onclick="toggleTheme()" aria-label="Toggle color theme">
+  <span id="theme-icon">🌓</span>
+</button>
+
+<script>
+var THEME_CYCLE = ['auto', 'dark', 'light'];
+var THEME_ICONS = { auto: '🌓', dark: '🌙', light: '☀️' };
+var THEME_LABELS = { auto: 'Color theme: Auto (follows system)', dark: 'Color theme: Dark', light: 'Color theme: Light' };
+
+function getTheme() {
+  return localStorage.getItem('theme') || 'auto';
+}
+
+function applyTheme(theme) {
+  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (theme === 'dark' || (theme === 'auto' && prefersDark)) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+  }
+}
+
+function updateButton(theme) {
+  var icon = document.getElementById('theme-icon');
+  var btn = document.getElementById('dark-mode-toggle');
+  if (icon) icon.textContent = THEME_ICONS[theme] || '🌓';
+  if (btn) btn.title = THEME_LABELS[theme] || '';
+}
+
+function toggleTheme() {
+  var current = getTheme();
+  var idx = THEME_CYCLE.indexOf(current);
+  var next = THEME_CYCLE[(idx + 1) % THEME_CYCLE.length];
+  localStorage.setItem('theme', next);
+  applyTheme(next);
+  updateButton(next);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  updateButton(getTheme());
+
+  // Keep auto mode in sync with system preference changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+    if (getTheme() === 'auto') {
+      applyTheme('auto');
+    }
+  });
+});
+</script>

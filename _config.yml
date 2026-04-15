@@ -29,6 +29,29 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Navbar links shown in the top-right header
+navbar-links:
+  About: "about"
+
+# Enable search for blog posts
+post_search: true
+
+# Inject dark mode toggle into the navbar
+navbar-extra:
+  - "dark-mode-toggle.html"
+
+# Custom CSS
+site-css:
+  - "/assets/css/dark-mode.css"
+
+# Inject dark-mode detection into <head> on every page to prevent flash-of-wrong-theme
+defaults:
+  - scope:
+      path: ""
+    values:
+      head-extra:
+        - "dark-mode-detect.html"
+
 # Build settings
 theme: beautiful-jekyll-theme
 plugins:

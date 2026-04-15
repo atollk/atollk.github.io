@@ -1,0 +1,189 @@
+/* Dark mode toggle button */
+.dark-mode-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.15rem;
+  padding: 0.25rem 0.5rem;
+  color: var(--navbar-text-col);
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.dark-mode-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* ===== Dark mode overrides ===== */
+
+/* CSS custom property overrides — cascade down to all elements using var() */
+html[data-theme="dark"] {
+  --page-col: #121212;
+  --text-col: #e1e1e1;
+  --link-col: #90caf9;
+  --hover-col: #bbdefb;
+  --navbar-col: #1e1e1e;
+  --navbar-text-col: #e1e1e1;
+  --navbar-border-col: #333333;
+  --footer-col: #1e1e1e;
+  --footer-text-col: #a0a0a0;
+  --footer-link-col: #cccccc;
+  --footer-hover-col: #bbdefb;
+  --mid-col: #a0a0a0;
+}
+
+/* Explicit overrides for elements that may not pick up variable changes */
+html[data-theme="dark"] body {
+  background-color: #121212 !important;
+  color: #e1e1e1 !important;
+}
+
+html[data-theme="dark"] .navbar-custom {
+  background-color: #1e1e1e !important;
+  border-bottom-color: #333333 !important;
+}
+
+html[data-theme="dark"] .navbar-custom .navbar-brand,
+html[data-theme="dark"] .navbar-custom .navbar-nav .nav-link,
+html[data-theme="dark"] .dark-mode-btn {
+  color: #e1e1e1 !important;
+}
+
+html[data-theme="dark"] .navbar-custom .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+html[data-theme="dark"] .navbar-custom .navbar-toggler {
+  border-color: #555555;
+}
+
+html[data-theme="dark"] footer {
+  background-color: #1e1e1e !important;
+  border-top-color: #333333 !important;
+}
+
+html[data-theme="dark"] footer .text-muted {
+  color: #a0a0a0 !important;
+}
+
+html[data-theme="dark"] footer a {
+  color: #cccccc !important;
+}
+
+html[data-theme="dark"] footer a:hover,
+html[data-theme="dark"] footer a:focus {
+  color: #bbdefb !important;
+}
+
+/* Body and general content */
+html[data-theme="dark"] .intro-header,
+html[data-theme="dark"] .main-content,
+html[data-theme="dark"] section {
+  background-color: #121212;
+}
+
+/* Inline code */
+html[data-theme="dark"] code {
+  color: #f48fb1;
+  background-color: #2d2d2d;
+}
+
+/* Code blocks */
+html[data-theme="dark"] pre {
+  background-color: #1e1e1e;
+  border-color: #333333;
+}
+
+html[data-theme="dark"] pre code {
+  color: #e1e1e1;
+  background-color: transparent;
+}
+
+/* Tables */
+html[data-theme="dark"] table tr:nth-child(odd) td {
+  background-color: #1e1e1e;
+}
+
+html[data-theme="dark"] table tr:nth-child(even) td {
+  background-color: #252525;
+}
+
+html[data-theme="dark"] table th {
+  background-color: #2d2d2d;
+  color: #e1e1e1;
+  border-color: #444444;
+}
+
+html[data-theme="dark"] table td {
+  border-color: #444444;
+}
+
+/* Post previews */
+html[data-theme="dark"] .post-preview {
+  border-bottom-color: #333333;
+}
+
+/* Notification boxes */
+html[data-theme="dark"] .box-note {
+  background-color: #2d2d2d;
+  border-color: #555555;
+}
+
+html[data-theme="dark"] .box-warning {
+  background-color: #2d2200;
+  border-color: #665500;
+}
+
+html[data-theme="dark"] .box-error {
+  background-color: #2d0000;
+  border-color: #660000;
+}
+
+html[data-theme="dark"] .box-success {
+  background-color: #002d00;
+  border-color: #006600;
+}
+
+/* Search box */
+html[data-theme="dark"] #nav-search-input {
+  background-color: #2d2d2d;
+  color: #e1e1e1;
+  border-color: #555555;
+}
+
+html[data-theme="dark"] #nav-search-input::placeholder {
+  color: #a0a0a0;
+}
+
+/* Dropdown menus */
+html[data-theme="dark"] .navbar-custom .dropdown-menu {
+  background-color: #2d2d2d;
+  border-color: #444444;
+}
+
+html[data-theme="dark"] .navbar-custom .dropdown-item {
+  color: #e1e1e1;
+  background-color: #2d2d2d;
+}
+
+html[data-theme="dark"] .navbar-custom .dropdown-item:hover,
+html[data-theme="dark"] .navbar-custom .dropdown-item:focus {
+  background-color: #444444;
+  color: #e1e1e1;
+}
+
+/* Cards */
+html[data-theme="dark"] .card {
+  background-color: #1e1e1e;
+  border-color: #333333;
+}
+
+html[data-theme="dark"] .card-body {
+  color: #e1e1e1;
+}
+
+/* Horizontal rules */
+html[data-theme="dark"] hr {
+  border-color: #444444;
+}

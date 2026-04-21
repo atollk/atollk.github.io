@@ -2,7 +2,7 @@
 layout: post
 title: "On The Math Of \"Dragonsweeper\""
 date: 2026-04-21
-categories: [games, matb]
+categories: [blog]
 ---
 
 Recently, a game called [Dragonsweeper](https://danielben.itch.io/dragonsweeper) has been featured by several gaming YouTubers and live streamers.
@@ -193,6 +193,6 @@ That means unless you get extremely lucky and obtain all 54 gold coins before le
 
 # Hats off to the developer
 
-When I started playing the game, even though I have spent quite a bit of time on Minesweeper in the past, I felt frustrated because it felt like Dragonsweeper is very much based on chance, and that you, as the player, have little influence on whether you will actually win. 
+When I started playing the game, even though I have spent quite a bit of time on Minesweeper in the past, I felt frustrated because it felt like Dragonsweeper is very much based on chance, and that you, as the player, have little influence on whether you will actually win.
 After coming back to it though and looking at the math, I can actually respect the effort that must have gone into it. 
 Just the fact that the gold coins required to level up are not a linear or quadratic formula, but seem to be a hand-crafted list of values, makes me appreciate it more.

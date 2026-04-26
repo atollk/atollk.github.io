@@ -136,13 +136,16 @@ Again, not really that difficult. The real challenge comes from surviving long e
 
 "Clear Board" is more a bit more interesting. The game is nice enough to provide a list of all enemies on the board.
 
-![Screenshot of the board](/assets/dragonsweeper-1.png)
+![List of enemies](/assets/dragonsweeper-1.png)
 
 The Beholder-esque creature is labeled "x?" but in my tests, it always spawned two times. 
-That gives a total combined value of all enemies of: 279.
-The total amount of gold you can reach is thus 279 + 54 + 13 (for the dragon) = 346.
+That gives a total combined value of all enemies of: 292.
 
-(On the victory screen, the game says that the maximal reachable score is 365, which is 19 above what I came up with. I assume I made a mistake somewhere, but I couldn't tell where.)
+Not mentioned before, there are also six "wall" tiles in each game. 
+For this purpose, they can basically be considered as enemies with combat value 3 that only yield 1 gold coin after defeat.
+If you want to battle every enemy and every wall, it will cost Jorge 292 + 6*3 = 310 hit points.
+
+The total amount of gold you can reach is thus 292 + 54 + 6 + 13 (for the dragon) = 365, which is also the highest possible score shown on the victory screen.
 
 <table>
   <tr>
@@ -153,6 +156,8 @@ The total amount of gold you can reach is thus 279 + 54 + 13 (for the dragon) = 
     <td>18</td>
     <td>19</td>
     <td>20</td>
+    <td>21</td>
+    <td>22</td>
   </tr>
   <tr>
     <th>Hit Points</th>
@@ -162,6 +167,8 @@ The total amount of gold you can reach is thus 279 + 54 + 13 (for the dragon) = 
     <td>13</td>
     <td>14</td>
     <td>14</td>
+    <td>15</td>
+    <td>15</td>
   </tr>
   <tr>
     <th>Cumulative Hit Points</th>
@@ -171,6 +178,8 @@ The total amount of gold you can reach is thus 279 + 54 + 13 (for the dragon) = 
     <td>162</td>
     <td>176</td>
     <td>190</td>
+    <td>205</td>
+    <td>220</td>
   </tr>
   <tr>
     <th>Total gold to reach</th>
@@ -180,16 +189,15 @@ The total amount of gold you can reach is thus 279 + 54 + 13 (for the dragon) = 
     <td>255</td>
     <td>280</td>
     <td>305</td>
+    <td>330</td>
+    <td>355</td>
   </tr>
 </table>
 
-The highest level you can reach is 20, giving you a total of 190 hit points to use and gain 190 from battles without scrolls.
-Together with the 54 "free" coins, you are still missing 346 - 54 - 190 = 102 gold coins. 
-These, you have to get from the 9 health scrolls, averaging at a value of 11.33 per scroll. 
-That's actually a challenge - any scroll you use before reaching level 15, which is almost the end of the game, has been used "below value".
-
-Furthermore, the highest level you can reach theoretically without using any scrolls is also level 15, as by level 16, the difference between cumulative hit points and gold coins already exceeds 54.
-That means unless you get extremely lucky and obtain all 54 gold coins before level 15 and are able to max out your gold coin gain on every level, you will have to use some scrolls suboptimally and make the loss back with others later.
+The highest level you can reach is 22, giving you a total of 220 hit points to use and gain 220 gold coins from battles without scrolls.
+Compared to the 310 hit points required to battle all enemies, you are still missing 90 hit points to reach the max score.
+These, you have to get from the 9 health scrolls, averaging at a value of 10 per scroll. 
+That's actually a challenge - any scroll you use before reaching level 11, quite far into the game already, has been used "below value".
 
 # Hats off to the developer
 

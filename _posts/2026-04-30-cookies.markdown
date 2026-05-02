@@ -2,47 +2,56 @@
 layout: post
 title: "My Recipe for \"Adult\" Cookies"
 date: 2026-04-30
-categories: [blog, cooking]
+categories: [ blog, cooking ]
 ---
 
-I love cookies, or, as they are called in Germany, "American Cookies", or, as they are called in America, "Chocolate chip cookies".
+I love cookies, or, as they are called in Germany, "American Cookies", or, as they are called in America, "Chocolate
+chip cookies".
 
-However, I am part of the [hypocritical elite](https://www.youtube.com/watch?v=2hrTRNv1DZ8) that does not enjoy sweets loaded with fats and sugars to the brim anymore.
-Nowadays, I look to what you might call "healthy" versions of snacks. 
-If you want to appear really smart, you can call them "adult variants" with "complex flavor profiles" full of "homemade goodness".
+However, I am part of the [hypocritical elite](https://www.youtube.com/watch?v=2hrTRNv1DZ8) that does not enjoy sweets
+loaded with fats and sugars to the brim anymore.
+Nowadays, I look to what you might call "healthy" versions of snacks.
+If you want to appear really smart, you can call them "adult variants" with "complex flavor profiles" full of "homemade
+goodness".
 
 Anyway, this is the recipe that I came up with and I like making at the moment.
-It balances some elements of sweetness with things like bitterness that make the cookies feel more like actual nutrition.
+It balances some elements of sweetness with flavors like savoriness, bitterness, and saltiness that make the cookies
+feel more like actual nutrition, and build the contrast that makes the sugary and chocolaty bits taste so nice.
+
+![Photo of cookies](/assets/cookies.jpeg)
 
 ## Ingredients
 
-- 110g of coconut oil 
-  - Substitute: 110g of butter
-- 110g of granulated white sugar
-- 40g of molasses
-  - Substitute: Leave out the molasses and white sugar; instead, use 150g of brown sugar
+- 110g of coconut oil
+    - Substitute: 110g of butter
+- 125g of granulated white sugar
+- 50g of molasses
+    - Substitute: Leave out the molasses and white sugar; instead, use 175g of brown sugar
 - 1/2 teaspoon of vanilla extract
-  - Substitute: Replace some of the white sugar with vanilla sugar
+    - Substitute: Replace some of the white sugar with vanilla sugar
 - 1 egg
-- 175g of all-purpose flour (Germany: Type 550 wheat flour)
-- 25g of a "darker" flour: Whole wheat, spelt, rye, ...
-  - Substitute: 25g more of the all-purpose flour
+    - vegan substitute: 60g of apple purée
+- 190g of all-purpose flour (Germany: Type 550 wheat flour)
 - 1/4 teaspoon of baking powder
 - 1 teaspoon of salt
 - 1/2 teaspoon of MSG
-  - Substitute: it's optional, just leave it
+    - Substitute: it's optional, just leave it
 - 170g of dark chocolate chips / chopped dark chocolate
 - 50g of chopped pecan nuts
-  - Substitute: it's optional, just leave it
+    - Substitute: it's optional, just leave it
 
 ## Steps
 
-1. Warm up the fat. If you are using butter, this can be done by leaving it at room-temperature. For coconut oil, I recommend using the microwave.
+1. Warm up the fat. If you are using butter, this can be done by leaving it at room-temperature. For coconut oil, I
+   recommend using the microwave.
 2. Mix the fat, sugar, molasses, and vanilla extract until it becomes a homogenous mass.
 3. Add the egg to the mixture and mix it in.
-4. In a separate bowl, mix flour, baking powder, salt, and MSG. (The point of this is to prevent clumps.) Then, incorporate it into the wet ingredients.
-5. Finally, incorporate the chocolate and nuts. If you have been using an electric mixer so far, you probably want to switch to a spoon or spatula at this step, as the dough can become hard to work with.
+4. In a separate bowl, mix flour, baking powder, salt, and MSG. (The point of this is to prevent clumps.) Then,
+   incorporate it into the wet ingredients.
+5. Finally, incorporate the chocolate and nuts. If you have been using an electric mixer so far, you probably want to
+   switch to a spoon or spatula at this step, as the dough can become hard to work with.
 6. Let the dough cool in the fridge for at least 3 hours.
-7. Divide the dough into 12 equal pieces (for medium-sized cookies), form them into balls, and place them on a baking sheet.
+7. Divide the dough into 12 equal pieces (for medium-sized cookies), form them into balls, and place them on a baking
+   sheet.
 8. Pre-heat your oven to 180°C ("conventional" oven / top-and-bottom-heat).
 9. Bake the cookies for 10 minutes. Let them cool (best case, on a cooling rack) before eating.
